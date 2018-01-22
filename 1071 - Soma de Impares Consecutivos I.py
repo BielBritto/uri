@@ -1,6 +1,7 @@
+from sys import stdin, stdout
 #Não resolvido
-x = int(input())
-y = int(input())
+x = int(stdin.readline())
+y = int(stdin.readline())
 soma = 0
 if x < y:
     for i in range(x+1, y-1):
